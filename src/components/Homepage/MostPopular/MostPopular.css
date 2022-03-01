@@ -1,0 +1,18 @@
+.images{
+    position: relative;
+}
+.images-overlay{
+    position: relative;
+    
+    margin-top: -108px;
+    color: white;
+    background-color: black;
+    padding: 14px;
+    /* opacity: ; */
+}
+.img-btn{
+    color: white;
+    background-color: #80808049;
+    font-size: 11px;
+    text-align: left;
+}
