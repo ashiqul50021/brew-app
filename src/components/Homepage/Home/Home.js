@@ -1,7 +1,13 @@
 import React from 'react';
 import { Routes, Route, Link, NavLink } from "react-router-dom";
 import About from '../About/About';
+import Bayc from '../Bayc/Bayc';
+import Genesis from '../Genesis/Genesis';
+import LatestShows from '../LatestShows/LatestShows';
 import MostPopular from '../MostPopular/MostPopular';
+import Temple from '../Temple/Temple';
+import TrendingNews from '../TrendingNews/TrendingNews';
+import Void from '../Void/Void';
 import './Home.css';
 
 const Home = () => {
@@ -23,6 +29,12 @@ const Home = () => {
                 {/* <Route path="/" element={<Home />} /> */}
                 <Route path="about" element={<About />} />
                 <Route path="popular" element={<MostPopular />} />
+                <Route path="byac" element={<Bayc />} />
+                <Route path="genesis" element={<Genesis />} />
+                <Route path="latest" element={<LatestShows />} />
+                <Route path="temple" element={<Temple />} />
+                <Route path="/" element={<TrendingNews />} />
+                <Route path="void" element={<Void />} />
             </Routes>
             </div>
         </div>
